@@ -9,15 +9,18 @@ class something{
         T add();
         something();
 };
+
 template <class T>
 something<T>::something(){
     cout<<"Enter"<<endl;
     cin>>a[0]>>a[1];
 }
+
 template <class T>
 T something<T>::add(){
     return a[0]+a[1];
 }
+
 int main(){
 
     something<float> floatsomething;

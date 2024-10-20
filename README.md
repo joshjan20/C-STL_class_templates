@@ -8,8 +8,6 @@ This program demonstrates the use of **C++ templates** in creating a generic cla
 
 In this example, the class `something<T>` accepts two inputs of a generic type `T`, and provides an `add()` function to return the sum of the two inputs.
 
----
-
 ### Code Explanation:
 
 1. **Template Declaration**:
